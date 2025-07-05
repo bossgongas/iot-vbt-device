@@ -34,6 +34,13 @@ VBT prioritizes movement speed over traditional load-based approaches. The propo
 
 ## 📡 System Architecture
 
+The following diagram shows the complete end-to-end architecture of the VBT system, from sensor acquisition to cloud-based processing and user interface:
+
+<p align="center">
+  <img src="images/diagrama_integracao.png" alt="System Integration Diagram" width="85%">
+</p>
+
+
 1. **Data Acquisition**  
    ESP32 collects IMU data and processes it locally.
 
